@@ -1,12 +1,14 @@
 ## İleri web programlama dersi final ödevi
 
-#### Teknolojiler
+### Teknolojiler
 
 - PHP
 - MySQL
 - Bootstrap 5
 
-#### Veritabanını oluştur
+### Veritabanını oluştur
+
+Phpmyadmin arayüzünde aşağıdaki query ile tabloyu oluşturabilirsiniz.
 
 ```
 CREATE TABLE users(
@@ -20,7 +22,9 @@ CREATE TABLE users(
 );
 ```
 
-#### Veritabanı Erişimi
+### Veritabanı Erişimi
+
+Veritabanı bağlantısı aşağıdaki dosyadan kuruluyor.
 
 > includes/dbh.inc.php
 
